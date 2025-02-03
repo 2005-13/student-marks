@@ -28,7 +28,7 @@ int main(){
     for(i=o;i<size-1;i++){
         for(j=o;j<size;j++){
             if(s[i].total<s[j].total){
-                 temp=s[i].total;
+                 int temp=s[i].total;
                  s[i].total=s[j].total;
                  s[j].total=temp;
                 }
